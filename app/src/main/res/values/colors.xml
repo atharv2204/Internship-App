@@ -96,7 +96,7 @@
     <color name="light_sky_blue">#87CEFA</color>
     <color name="sky_blue">#87CEEB</color>
     <color name="olive">#808000</color>
-    <color name="purple">#800080</color>
+
     <color name="maroon">#800000</color>
     <color name="aquamarine">#7FFFD4</color>
     <color name="chartreuse">#7FFF00</color>
@@ -140,5 +140,8 @@
     <color name="medium_blue">#0000CD</color>
     <color name="dark_blue">#00008B</color>
     <color name="navy">#000080</color>
+    <color name="purple">#673AB7</color>
+
+    <color name="lavendar">#8692f7</color>
 
 </resources>
