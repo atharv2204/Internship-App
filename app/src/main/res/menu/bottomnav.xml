@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:title="Cart"
-        android:id="@+id/fab"
-        android:icon="@drawable/baseline_shopping_cart_24"
+        android:title="Home"
+        android:id="@+id/hm"
+        android:icon="@drawable/baseline_home_24"
         />
     <item
         android:title="Favouraites"
@@ -11,9 +11,9 @@
         android:icon="@drawable/baseline_star_24"
         />
     <item
-        android:title="Home"
-        android:id="@+id/hm"
-        android:enabled="false"
+        android:title="Cart"
+        android:id="@+id/fab"
+        android:icon="@drawable/baseline_shopping_cart_24"
         />
     <item
         android:title="History"

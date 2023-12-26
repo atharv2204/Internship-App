@@ -6,15 +6,15 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
-import android.renderscript.ScriptGroup;
-import android.view.View;
 
 import com.example.intrenshipdemo.databinding.ActivityMainpageBinding;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-public class HomeActivity extends AppCompatActivity  {
+public class Mainpage extends AppCompatActivity  {
 
 
     ActivityMainpageBinding binding;
+
 
 
     @Override
@@ -22,6 +22,7 @@ public class HomeActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         binding = ActivityMainpageBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
 
         replacefragment(new home());
         binding.bottomnavview.setBackground(null);
@@ -41,6 +42,8 @@ public class HomeActivity extends AppCompatActivity  {
                 replacefragment(new Profile());
             }
         return true;
+
+
 
         });
 

@@ -44,4 +44,11 @@ dependencies {
     //slider
 
     implementation ("com.github.denzcoskun:ImageSlideShow:0.1.0")
+    //lotte
+    implementation("com.airbnb.android:lottie:6.1.0")
+    //Another lotte
+    implementation ("com.airbnb.android:lottie:3.5.0")
+
+
 }
+
