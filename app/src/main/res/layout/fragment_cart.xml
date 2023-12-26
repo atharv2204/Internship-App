@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/ghost_white"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".Cart">
  <RelativeLayout
      android:layout_width="match_parent"
      android:layout_height="match_parent"
      android:id="@+id/mainFrame"
+     android:layout_marginTop="5dp"
      >
   <LinearLayout
       android:layout_width="match_parent"
@@ -30,7 +31,7 @@
           android:letterSpacing="0.2"
           android:padding="10dp"
           android:drawableLeft="@drawable/baseline_discount_24"
-          android:textSize="25sp"/>
+          android:textSize="22sp"/>
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
@@ -50,6 +51,7 @@
     android:scrollbarStyle="insideOverlay"
     android:layout_below="@+id/offers"
     android:layout_above="@+id/grandTotal"
+    android:layout_marginBottom="5dp"
     >
     <LinearLayout
         android:layout_width="match_parent"
@@ -333,7 +335,8 @@
          android:layout_height="60dp"
          android:id="@+id/grandTotal"
          android:layout_alignParentBottom="true"
-         android:background="@color/pale_green">
+         android:layout_marginBottom="85dp"
+         android:background="#C3DCA0">
      <LinearLayout
          android:layout_width="wrap_content"
          android:layout_height="60dp"
