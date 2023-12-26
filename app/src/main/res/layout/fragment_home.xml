@@ -4,12 +4,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home">
+    tools:context=".home"
+    android:background="@color/orange">
 
     <!-- TODO: Update blank fragment layout -->
 
 
-
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
 
 
 
@@ -35,11 +39,33 @@
                 app:iss_corner_radius="20"
                 app:iss_title_background="@drawable/gradient"
                 tools:ignore="MissingClass" />
+
+
         </androidx.cardview.widget.CardView>
 
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="276dp"
+            android:layout_marginEnd="-6dp"
+            android:text="Horizontal scrollview"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffff"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-4dp">
 
 
+        </HorizontalScrollView>
 
-
-
+    </RelativeLayout>
 </FrameLayout>
