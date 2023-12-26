@@ -12,7 +12,7 @@
         />
     <item
         android:title="Cart"
-        android:id="@+id/fab"
+        android:id="@+id/cart"
         android:icon="@drawable/baseline_shopping_cart_24"
         />
     <item
