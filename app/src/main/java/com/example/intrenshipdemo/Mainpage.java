@@ -41,6 +41,9 @@ public class Mainpage extends AppCompatActivity  {
             else if (item.getItemId()==R.id.prof) {
                 replacefragment(new Profile());
             }
+            else if (item.getItemId()==R.id.cart) {
+                replacefragment(new Cart());
+            }
         return true;
 
 
