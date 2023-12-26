@@ -30,6 +30,7 @@ android {
     buildFeatures{
         viewBinding=true
     }
+
 }
 
 dependencies {
@@ -44,4 +45,7 @@ dependencies {
     //slider
 
     implementation ("com.github.denzcoskun:ImageSlideShow:0.1.0")
+
+
+
 }
