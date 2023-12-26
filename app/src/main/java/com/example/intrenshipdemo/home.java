@@ -47,8 +47,8 @@ public class home extends Fragment {
         View root = binding.getRoot();
 
 
+        return v;
 
 
-        return inflater.inflate(R.layout.fragment_home, container, false);
     }
 }
