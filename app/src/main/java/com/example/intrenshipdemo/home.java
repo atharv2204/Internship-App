@@ -34,13 +34,13 @@ public class home extends Fragment {
         ImageSlider imageSlider = v.findViewById(R.id.IS);
 
         ArrayList<SlideModel> slideModels=new ArrayList<>();
-        slideModels.add(new SlideModel(R.drawable.img1, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.offer2, ScaleTypes.FIT));
 
-        slideModels.add(new SlideModel(R.drawable.img2, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.offer4, ScaleTypes.FIT));
 
-        slideModels.add(new SlideModel(R.drawable.img3, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.offer3, ScaleTypes.FIT));
 
-        slideModels.add(new SlideModel(R.drawable.img10, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.image2, ScaleTypes.FIT));
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);

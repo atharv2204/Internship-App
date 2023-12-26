@@ -305,7 +305,8 @@
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -347,6 +348,19 @@
 
                                     </LinearLayout>
 
+                                    <ImageView
+
+                                        android:layout_width="186dp"
+                                        android:layout_height="140dp"
+                                        android:layout_gravity="left"
+                                        android:layout_margin="10dp"
+                                        android:scaleType="fitXY"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"
+                                        android:paddingLeft="60dp"
+                                        android:paddingRight="20dp"
+                                        android:src="@drawable/jw" />
+
                                 </LinearLayout>
 
 
@@ -365,7 +379,8 @@
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -377,7 +392,7 @@
                                         <TextView
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Laxmi Dinings"
+                                            android:text="Taj Hotel"
                                             android:textSize="24dp"
                                             android:textStyle="bold" />
 
@@ -398,6 +413,19 @@
 
 
                                     </LinearLayout>
+
+                                    <ImageView
+
+                                        android:layout_width="200dp"
+                                        android:layout_height="140dp"
+                                        android:layout_gravity="left"
+                                        android:layout_margin="10dp"
+                                        android:scaleType="fitXY"
+                                        android:paddingTop="10dp"
+                                        android:paddingBottom="10dp"
+                                        android:paddingLeft="60dp"
+                                        android:paddingRight="20dp"
+                                        android:src="@drawable/taj" />
 
                                 </LinearLayout>
 
