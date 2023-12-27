@@ -34,12 +34,15 @@
             android:exported="false" />
         <activity
             android:name=".activity_order_historyadmin"
+            android:parentActivityName=".adminHome"
             android:exported="false" />
         <activity
             android:name=".orders"
+            android:parentActivityName=".adminHome"
             android:exported="false" />
         <activity
             android:name=".activity_current"
+            android:parentActivityName=".adminHome"
             android:exported="false" />
         <activity
             android:name=".adminHome"

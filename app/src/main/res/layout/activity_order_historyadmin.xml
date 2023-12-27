@@ -16,9 +16,10 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_above="@+id/bottomNavigationView"
-            android:gravity="left"
+            android:gravity="left|center"
             android:text="Order History"
             android:textColor="@color/black"
+            android:letterSpacing="0.1"
             android:textSize="30dp"
             android:layout_marginLeft="20dp"/>
     </com.google.android.material.bottomnavigation.BottomNavigationView>

@@ -16,8 +16,9 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_above="@+id/bottomNavigationView"
-            android:gravity="left"
+            android:gravity="left|center"
             android:text="Orders Request"
+            android:letterSpacing="0.1"
             android:textColor="@android:color/black"
             android:textSize="30dp"
             android:layout_marginLeft="20dp"/>
@@ -82,13 +83,29 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/offer3"
+                        android:layout_gravity="center"
                         android:layout_marginLeft="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="0dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Rutveek Baviskar"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        tools:ignore="TextSizeCheck" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:layout_marginTop="35dp"
+                        android:layout_marginTop="5dp"
                         android:text="Bumper Thali"
                         android:textSize="20dp"
                         android:textStyle="bold"
@@ -97,14 +114,14 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="35dp"
-                        android:layout_marginRight="10dp"
-                        android:gravity="right"
-                        android:text="x2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Mob. :-7964399245"
                         android:textSize="20dp"
                         android:textStyle="bold|italic"
                         tools:ignore="TextSizeCheck" />
 
+                </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
@@ -115,7 +132,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Rs.498"
-                    android:textSize="30dp"
+                    android:textSize="26sp"
                     android:layout_marginTop="130dp"
                     android:layout_marginLeft="10dp"
                     android:textStyle="bold"/>
@@ -187,26 +204,43 @@
                         android:src="@drawable/image2"
                         android:layout_marginLeft="10dp"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="35dp"
-                        android:text="Pizza"
-                        android:textSize="20dp"
-                        android:textStyle="bold"
-                        tools:ignore="TextSizeCheck" />
-
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="35dp"
-                        android:layout_marginRight="10dp"
-                        android:gravity="right"
-                        android:text="x1"
-                        android:textSize="20dp"
-                        android:textStyle="bold|italic"
-                        tools:ignore="TextSizeCheck" />
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="0dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Rahul Singh"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            tools:ignore="TextSizeCheck" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Pizza"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            tools:ignore="TextSizeCheck" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Mob. :-9745399245"
+                            android:textSize="20dp"
+                            android:textStyle="bold|italic"
+                            tools:ignore="TextSizeCheck" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -218,7 +252,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rs.599"
-                        android:textSize="30dp"
+                        android:textSize="26sp"
                         android:layout_marginTop="130dp"
                         android:layout_marginLeft="10dp"
                         android:textStyle="bold"/>
@@ -288,27 +322,44 @@
                         android:layout_height="100dp"
                         android:src="@drawable/image1"
                         android:layout_marginLeft="10dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="35dp"
-                        android:text="South Tadka"
-                        android:textSize="20dp"
-                        android:textStyle="bold"
-                        tools:ignore="TextSizeCheck" />
-
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="35dp"
-                        android:layout_marginRight="10dp"
-                        android:gravity="right"
-                        android:text="x1"
-                        android:textSize="20dp"
-                        android:textStyle="bold|italic"
-                        tools:ignore="TextSizeCheck" />
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="0dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Neha Sharma"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            tools:ignore="TextSizeCheck" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="South Tadka"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            tools:ignore="TextSizeCheck" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Mob. :-9864399245"
+                            android:textSize="20dp"
+                            android:textStyle="bold|italic"
+                            tools:ignore="TextSizeCheck" />
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -320,7 +371,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rs.199"
-                        android:textSize="30dp"
+                        android:textSize="26sp"
                         android:layout_marginTop="130dp"
                         android:layout_marginLeft="10dp"
                         android:textStyle="bold"/>
