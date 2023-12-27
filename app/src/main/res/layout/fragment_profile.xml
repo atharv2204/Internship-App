@@ -1,14 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Profile">
+    android:padding="16dp"
+    android:background="#dcdcdc">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="16dp"
+        tools:context=".MainActivity">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/PhonetextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="207dp"
+            android:hint="Enter Phone Number"
+            android:text="PHONE NO: +91 9545461881"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="220dp" />
+
+        <TextView
+            android:id="@+id/textViewEdit"
+            android:layout_width="86dp"
+            android:layout_height="76dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="204dp"
+            android:layout_toRightOf="@id/PhonetextView"
+            android:text="&#9997;"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="252dp"
+            tools:layout_editor_absoluteY="222dp" />
+
+        <TextView
+            android:id="@+id/bioTextView"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="282dp"
+            android:text="ADDRESS - PCCOER,RAVET PIN-412101"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="324dp" />
+
+        <TextView
+            android:id="@+id/EmailTextView"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="259dp"
+            android:text="Email - dhawan_cust1023@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <TextView
+            android:id="@+id/MyOrderstextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="234dp"
+            android:text="My Orders"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="366dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/circularProfilePhoto"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/pro_circ" />
+
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circularProfilePhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="DHANWAN"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="550dp"
+        android:text="Save"
+        android:textColor="@color/black"
+        android:backgroundTint="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/LogoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="88dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Logout"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
