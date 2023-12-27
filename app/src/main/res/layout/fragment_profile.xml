@@ -39,7 +39,7 @@
             android:layout_height="76dp"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="5dp"
-            android:layout_marginTop="204dp"
+            android:layout_marginTop="200dp"
             android:layout_toRightOf="@id/PhonetextView"
             android:text="&#9997;"
             android:textSize="25dp"
@@ -50,16 +50,14 @@
             android:id="@+id/bioTextView"
             android:layout_width="341dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="25dp"
-            android:layout_marginBottom="282dp"
+            android:layout_below="@id/EmailTextView"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
             android:text="ADDRESS - PCCOER,RAVET PIN-412101"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="324dp" />
+             />
 
         <TextView
             android:id="@+id/EmailTextView"
@@ -76,20 +74,17 @@
             tools:layout_editor_absoluteX="37dp"
             tools:layout_editor_absoluteY="275dp" />
 
-        <TextView
+        <Button
             android:id="@+id/MyOrderstextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="30dp"
-            android:layout_marginBottom="234dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/bioTextView"
+            android:layout_centerInParent="true"
             android:text="My Orders"
             android:textColor="@color/black"
             android:textSize="18sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="37dp"
-            tools:layout_editor_absoluteY="366dp" />
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
@@ -121,8 +116,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_marginStart="85dp"
-        android:layout_marginTop="550dp"
-        android:text="Save"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="Edit"
         android:textColor="@color/black"
         android:backgroundTint="#FFFFFF"/>
 
@@ -130,9 +126,10 @@
         android:id="@+id/LogoutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="550dp"
-        android:layout_marginEnd="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
         android:backgroundTint="#FFFFFF"
         android:text="Logout"
         android:textColor="@color/black" />
