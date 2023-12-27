@@ -124,13 +124,13 @@
                         android:textStyle="bold"/>
 
                     <Button
-                        android:layout_width="170dp"
+                        android:layout_width="160dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="70dp"
                         android:layout_marginTop="130dp"
                         android:backgroundTint="@color/orange"
                         android:text="Akurdi"
-                        android:textSize="23dp"
+                        android:textSize="21dp"
                         android:drawableLeft="@drawable/baseline_location_on_24"/>
                 </LinearLayout>
 
@@ -230,12 +230,12 @@
                         android:textStyle="bold"/>
 
                     <Button
-                        android:layout_width="170dp"
+                        android:layout_width="160dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="70dp"
                         android:layout_marginTop="130dp"
                         android:backgroundTint="@color/orange"
-                        android:textSize="23dp"
+                        android:textSize="21dp"
                         android:text="Ravet"
                        android:drawableLeft="@drawable/baseline_location_on_24" />
                 </LinearLayout>
@@ -335,13 +335,13 @@
                         android:layout_marginLeft="30dp"
                         android:textStyle="bold"/>
                     <Button
-                        android:layout_width="170dp"
+                        android:layout_width="160dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="70dp"
                         android:layout_marginTop="130dp"
                         android:backgroundTint="@color/orange"
                         android:text="Sanghvi"
-                        android:textSize="22dp"
+                        android:textSize="21dp"
                         android:drawableLeft="@drawable/baseline_location_on_24"/>
                 </LinearLayout>
 
