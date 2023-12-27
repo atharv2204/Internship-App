@@ -15,13 +15,19 @@
         android:theme="@style/Theme.IntrenshipDemo"
         tools:targetApi="31">
         <activity
-            android:name=".activity_login"
+            android:name=".map_page"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery_partner"
+            android:exported="false" />
+        <activity
+            android:name=".Mainpage"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Mainpage"
+            android:name=".activity_login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
