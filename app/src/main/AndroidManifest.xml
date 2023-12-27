@@ -29,7 +29,21 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCDjQDUlyaeGDN8t7DMUD8MgAH0U8urmBo" />
-
+        <activity
+            android:name=".Admin_addProducts"
+            android:exported="false" />
+        <activity
+            android:name=".activity_order_historyadmin"
+            android:exported="false" />
+        <activity
+            android:name=".orders"
+            android:exported="false" />
+        <activity
+            android:name=".activity_current"
+            android:exported="false" />
+        <activity
+            android:name=".adminHome"
+            android:exported="false" />
         <activity
             android:name=".Deliverymap"
             android:exported="false"

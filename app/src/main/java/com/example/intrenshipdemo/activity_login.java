@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 public class activity_login extends AppCompatActivity {
 
@@ -30,7 +31,7 @@ public class activity_login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if ("admin" == mail.getText().toString() && "admin123"== password.getText().toString() ){
+                if (mail.getText().toString().equals("admin") && password.getText().toString().equals("admin123") ){
 
                     startActivity(new Intent(activity_login.this, adminHome.class));
                     //Admin activity
@@ -41,7 +42,7 @@ public class activity_login extends AppCompatActivity {
                     //Customer
                     startActivity(new Intent(activity_login.this, Mainpage.class));
 
-                } else if (mail.getText().toString()=="Delivery"&& password.getText().toString()=="Delivery123"){
+                }  else if (mail.getText().toString().equals("Delivery")&& password.getText().toString().equals("Delivery123")){
 
                     startActivity(new Intent(activity_login.this,Delivery_partner.class));
 
@@ -50,7 +51,7 @@ public class activity_login extends AppCompatActivity {
 
                 else
                 {
-                    //Toast
+                    Toast.makeText(activity_login.this,"Error Occured",Toast.LENGTH_SHORT);
                 }
             }
         });
