@@ -386,7 +386,6 @@
                         android:src="@drawable/image1" />
 
                     <TextView
-                        android:id="@id/South"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"

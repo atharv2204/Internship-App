@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,31 +13,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IntrenshipDemo"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCDjQDUlyaeGDN8t7DMUD8MgAH0U8urmBo" />
+
         <activity
-            android:name=".Admin_addProducts"
+            android:name=".Deliverymap"
+            android:exported="false"
+            android:label="@string/title_activity_deliverymap" />
+        <activity
+            android:name=".map_page"
             android:exported="false" />
         <activity
-            android:name=".activity_order_historyadmin"
+            android:name=".Delivery_partner"
             android:exported="false" />
         <activity
-            android:name=".orders"
-            android:exported="false" />
-        <activity
-            android:name=".activity_current"
-            android:exported="false" />
-        <activity
-            android:name=".adminHome"
-            android:exported="false" />
-        <activity
-            android:name=".activity_login"
+            android:name=".Mainpage"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Mainpage"
-            android:exported="true" >
+            android:name=".activity_login"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

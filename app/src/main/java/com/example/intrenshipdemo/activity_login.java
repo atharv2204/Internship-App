@@ -32,7 +32,7 @@ public class activity_login extends AppCompatActivity {
 
                 if ("admin" == mail.getText().toString() && "admin123"== password.getText().toString() ){
 
-
+                    startActivity(new Intent(activity_login.this, adminHome.class));
                     //Admin activity
                 }
 
@@ -42,6 +42,8 @@ public class activity_login extends AppCompatActivity {
                     startActivity(new Intent(activity_login.this, Mainpage.class));
 
                 } else if (mail.getText().toString()=="Delivery"&& password.getText().toString()=="Delivery123"){
+
+                    startActivity(new Intent(activity_login.this,Delivery_partner.class));
 
                     //Delivery Boy
                 }

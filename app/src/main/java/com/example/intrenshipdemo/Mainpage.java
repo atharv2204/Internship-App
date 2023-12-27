@@ -35,9 +35,9 @@ public class Mainpage extends AppCompatActivity  {
             else if (item.getItemId()==R.id.his) {
                 replacefragment(new History());
             }
-            else if (item.getItemId()==R.id.fav){
-                replacefragment(new Favourites());
-            }
+//            else if (item.getItemId()==R.id.fav){
+//                replacefragment(new Favourites());
+//            }
             else if (item.getItemId()==R.id.prof) {
                 replacefragment(new Profile());
             }
