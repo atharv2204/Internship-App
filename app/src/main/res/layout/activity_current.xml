@@ -121,7 +121,7 @@
                         android:textStyle="bold"/>
 
                     <Button
-                        android:layout_width="170dp"
+                        android:layout_width="160dp"
                         android:layout_height="65dp"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="130dp"
@@ -225,7 +225,7 @@
                         android:textStyle="bold"/>
 
                     <Button
-                        android:layout_width="170dp"
+                        android:layout_width="160dp"
                         android:layout_height="65dp"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="130dp"
@@ -329,13 +329,13 @@
                         android:layout_marginLeft="30dp"
                         android:textStyle="bold"/>
                     <Button
-                        android:layout_width="170dp"
+                        android:layout_width="160dp"
                         android:layout_height="65dp"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="130dp"
                         android:backgroundTint="@color/orange"
                         android:text="Sanghvi"
-                        android:textSize="23dp"
+                        android:textSize="22dp"
                         android:drawableLeft="@drawable/baseline_location_on_24"/>
                 </LinearLayout>
 
