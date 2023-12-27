@@ -72,7 +72,7 @@
                     android:layout_margin="5dp"
                     android:gravity="center"
                     android:orientation="vertical"
-                    android:paddingTop="20dp">
+                    android:paddingTop="5dp">
 
                     <com.google.android.material.card.MaterialCardView
                         android:id="@+id/food"
@@ -80,6 +80,7 @@
                         android:layout_height="150dp"
                         android:layout_margin="10dp"
                         app:cardElevation="20dp"
+                        android:onClick="addProduct"
                         android:backgroundTint="#EF8930">
 
                         <LinearLayout
@@ -112,7 +113,7 @@
                                 android:layout_gravity="end|center"
                                 android:textAlignment="textEnd"
                                 android:layout_marginLeft="0dp"
-                                android:layout_marginRight="20dp"
+                                android:layout_marginRight="15dp"
                                 android:textColor="@color/white"
                                 android:textSize="30sp"
                                 android:textStyle="bold" />
@@ -137,6 +138,7 @@
                         android:layout_height="150dp"
                         android:layout_margin="10dp"
                         app:cardElevation="20dp"
+                        android:onClick="ord_req"
                         android:backgroundTint="#F8734A">
 
                         <LinearLayout
@@ -184,13 +186,14 @@
                         android:layout_height="150dp"
                         android:layout_margin="10dp"
                         app:cardElevation="20dp"
+                        android:onClick="live_ord"
                         android:backgroundTint="#D8502D">
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="120dp"
                             android:layout_marginTop="15dp"
-                            android:orientation="vertical">
+                            android:orientation="horizontal">
 
                             <com.airbnb.lottie.LottieAnimationView
                                 android:layout_width="120dp"
@@ -207,23 +210,16 @@
 
                             </com.airbnb.lottie.LottieAnimationView>
 
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:onClick="ride_details_open"
-                            android:orientation="horizontal"
-                            android:layout_marginRight="10dp">
-
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:padding="5dp"
                                 android:text="Live Orders"
-                                android:layout_marginStart="150dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_weight="2"
+                                android:layout_gravity="end|center"
+                                android:textAlignment="textEnd"
                                 android:textColor="@color/white"
                                 android:textSize="30sp"
                                 android:textStyle="bold" />
@@ -247,6 +243,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
                         android:layout_margin="10dp"
+                        android:onClick="admin_his"
                         app:cardElevation="20dp"
                         android:backgroundTint="#DA7120">
 
@@ -254,9 +251,22 @@
                             android:layout_width="match_parent"
                             android:layout_height="120dp"
                             android:layout_marginTop="15dp"
-                            android:orientation="vertical"
+                            android:orientation="horizontal"
                             >
 
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="History"
+                                android:layout_weight="3"
+                                android:textColor="@color/white"
+                                android:textSize="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="start|center"
+                                android:layout_marginRight="0dp"
+                                android:textStyle="bold" />
                             <com.airbnb.lottie.LottieAnimationView
                                 android:layout_width="120dp"
                                 android:layout_height="wrap_content"
@@ -266,34 +276,11 @@
                                 android:layout_gravity="right"
                                 app:lottie_autoPlay="true"
                                 android:scaleType="fitXY"
+                                android:layout_weight="1"
                                 app:lottie_loop="true"
                                 app:lottie_rawRes="@raw/historyanim">
 
                             </com.airbnb.lottie.LottieAnimationView>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center_vertical"
-                            android:onClick="open_his"
-                            android:layout_marginLeft="30dp"
-                            android:orientation="horizontal">
-
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:padding="5dp"
-                                android:text="History"
-                                android:textColor="@color/white"
-                                android:textSize="30dp"
-                                android:layout_marginRight="70dp"
-                                android:textStyle="bold" />
-
-
-
 
 
                         </LinearLayout>
