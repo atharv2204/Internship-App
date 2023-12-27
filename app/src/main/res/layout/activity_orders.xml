@@ -98,7 +98,7 @@
                         android:layout_marginTop="10dp"
                         android:text="Rutveek Baviskar"
                         android:textSize="20dp"
-                        android:textStyle="bold"
+
                         tools:ignore="TextSizeCheck" />
 
                     <TextView
@@ -108,7 +108,6 @@
                         android:layout_marginTop="5dp"
                         android:text="Bumper Thali"
                         android:textSize="20dp"
-                        android:textStyle="bold"
                         tools:ignore="TextSizeCheck" />
 
                     <TextView
@@ -118,7 +117,6 @@
                         android:layout_marginLeft="10dp"
                         android:text="Mob. :-7964399245"
                         android:textSize="20dp"
-                        android:textStyle="bold|italic"
                         tools:ignore="TextSizeCheck" />
 
                 </LinearLayout>
@@ -217,7 +215,6 @@
                             android:layout_marginTop="10dp"
                             android:text="Rahul Singh"
                             android:textSize="20dp"
-                            android:textStyle="bold"
                             tools:ignore="TextSizeCheck" />
 
                         <TextView
@@ -227,7 +224,6 @@
                             android:layout_marginTop="5dp"
                             android:text="Pizza"
                             android:textSize="20dp"
-                            android:textStyle="bold"
                             tools:ignore="TextSizeCheck" />
 
                         <TextView
@@ -237,7 +233,6 @@
                             android:layout_marginLeft="10dp"
                             android:text="Mob. :-9745399245"
                             android:textSize="20dp"
-                            android:textStyle="bold|italic"
                             tools:ignore="TextSizeCheck" />
 
                     </LinearLayout>
@@ -335,7 +330,6 @@
                             android:layout_marginTop="10dp"
                             android:text="Neha Sharma"
                             android:textSize="20dp"
-                            android:textStyle="bold"
                             tools:ignore="TextSizeCheck" />
 
                         <TextView
@@ -345,7 +339,6 @@
                             android:layout_marginTop="5dp"
                             android:text="South Tadka"
                             android:textSize="20dp"
-                            android:textStyle="bold"
                             tools:ignore="TextSizeCheck" />
 
                         <TextView
@@ -355,7 +348,6 @@
                             android:layout_marginLeft="10dp"
                             android:text="Mob. :-9864399245"
                             android:textSize="20dp"
-                            android:textStyle="bold|italic"
                             tools:ignore="TextSizeCheck" />
 
                     </LinearLayout>
