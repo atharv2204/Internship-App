@@ -66,8 +66,9 @@
                         android:layout_marginRight="10dp"
                         android:gravity="right"
                         android:paddingTop="4dp"
-                        android:text="As soon as"
-                        android:textSize="15dp"
+                        android:text="Pizza  "
+                        android:textSize="25dp"
+                        android:textStyle="bold"
                         tools:ignore="TextSizeCheck" />
 
                 </LinearLayout>
@@ -79,28 +80,28 @@
                     android:layout_marginTop="30dp">
 
                     <ImageView
-                        android:layout_width="110dp"
-                        android:layout_height="100dp"
+                        android:layout_width="120dp"
+                        android:layout_height="130dp"
                         android:src="@drawable/d1"
                         android:layout_marginLeft="10dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="45dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="35dp"
-                        android:text="      Rajesh Kumar"
-                        android:textSize="15dp"
+                        android:text="  Rajesh Kumar"
+                        android:textSize="20dp"
                         tools:ignore="TextSizeCheck" />
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="45dp"
                         android:layout_marginTop="35dp"
                         android:layout_marginRight="10dp"
                         android:gravity="right"
-                        android:text="3 km"
-                        android:textSize="15dp"
+                        android:text="3 km  "
+                        android:textSize="20dp"
                         tools:ignore="TextSizeCheck" />
 
                 </LinearLayout>
@@ -113,18 +114,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rs.300"
-                        android:textSize="30dp"
+                        android:textSize="20dp"
                         android:layout_marginTop="130dp"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="30dp"
                         android:textStyle="bold"/>
+
                     <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="130dp"
+                        android:layout_width="170dp"
+                        android:layout_height="65dp"
                         android:layout_marginLeft="80dp"
+                        android:layout_marginTop="130dp"
                         android:backgroundTint="@color/orange"
-                        android:text="On the Way"
-                        android:textSize="20dp" />
+                        android:text="Akurdi"
+                        android:textSize="23dp"
+                        android:drawableLeft="@drawable/baseline_location_on_24"/>
                 </LinearLayout>
 
 
@@ -167,8 +170,9 @@
                         android:layout_marginRight="10dp"
                         android:gravity="right"
                         android:paddingTop="4dp"
-                        android:text="As soon as"
-                        android:textSize="15dp"
+                        android:text="Ice Cream  "
+                        android:textStyle="bold"
+                        android:textSize="25dp"
                         tools:ignore="TextSizeCheck" />
 
                 </LinearLayout>
@@ -180,28 +184,28 @@
                     android:layout_marginTop="30dp">
 
                     <ImageView
-                        android:layout_width="110dp"
-                        android:layout_height="100dp"
+                        android:layout_width="120dp"
+                        android:layout_height="130dp"
                         android:src="@drawable/d2"
                         android:layout_marginLeft="10dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="45dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="35dp"
-                        android:text="      Akshay Bansali"
-                        android:textSize="15dp"
+                        android:text="  Akshay Bansali"
+                        android:textSize="20dp"
                         tools:ignore="TextSizeCheck" />
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="45dp"
                         android:layout_marginTop="35dp"
                         android:layout_marginRight="10dp"
                         android:gravity="right"
-                        android:text="5km"
-                        android:textSize="15dp"
+                        android:text="5km  "
+                        android:textSize="20dp"
                         tools:ignore="TextSizeCheck" />
 
                 </LinearLayout>
@@ -214,19 +218,22 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rs.209"
-                        android:textSize="30dp"
+                        android:textSize="20dp"
                         android:layout_marginTop="130dp"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="20dp"
                         android:textStyle="bold"/>
 
                     <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="170dp"
+                        android:layout_height="65dp"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="130dp"
                         android:backgroundTint="@color/orange"
-                        android:text="On the Way"
-                        android:textSize="20dp" />
+
+                        android:textSize="23dp"
+
+                        android:text="Ravet"
+                       android:drawableLeft="@drawable/baseline_location_on_24" />
                 </LinearLayout>
 
 
@@ -268,8 +275,9 @@
                         android:layout_marginRight="10dp"
                         android:gravity="right"
                         android:paddingTop="4dp"
-                        android:text="As soon as"
-                        android:textSize="15dp"
+                        android:text="Shev Bhaji"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
                         tools:ignore="TextSizeCheck" />
 
                 </LinearLayout>
@@ -282,27 +290,27 @@
 
                     <ImageView
                         android:layout_width="110dp"
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
                         android:src="@drawable/d3"
                         android:layout_marginLeft="10dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="45dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="35dp"
-                        android:text="      Suraj Patil"
-                        android:textSize="15dp"
+                        android:text="  Suraj Patil"
+                        android:textSize="20dp"
                         tools:ignore="TextSizeCheck" />
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="45dp"
                         android:layout_marginTop="35dp"
                         android:layout_marginRight="10dp"
                         android:gravity="right"
-                        android:text="14km"
-                        android:textSize="15dp"
+                        android:text="14km  "
+                        android:textSize="20dp"
                         tools:ignore="TextSizeCheck" />
 
                 </LinearLayout>
@@ -315,18 +323,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rs.599"
-                        android:textSize="30dp"
+                        android:textSize="20dp"
                         android:layout_marginTop="130dp"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="30dp"
                         android:textStyle="bold"/>
                     <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="130dp"
+                        android:layout_width="170dp"
+                        android:layout_height="65dp"
                         android:layout_marginLeft="80dp"
+                        android:layout_marginTop="130dp"
                         android:backgroundTint="@color/orange"
-                        android:text="On the Way"
-                        android:textSize="20dp" />
+                        android:text="Sanghvi"
+                        android:textSize="23dp"
+                        android:drawableLeft="@drawable/baseline_location_on_24"/>
                 </LinearLayout>
 
 
