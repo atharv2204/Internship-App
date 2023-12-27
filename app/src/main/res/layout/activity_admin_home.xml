@@ -171,7 +171,7 @@
                                 android:scaleY="1.5"
                                 android:scaleX="1.5"
                                 app:lottie_loop="true"
-                                >
+                                app:lottie_rawRes="@raw/foodbike">
 
                             </com.airbnb.lottie.LottieAnimationView>
 
@@ -206,7 +206,7 @@
                                 android:scaleY="1.5"
                                 android:scaleX="1.5"
                                 app:lottie_loop="true"
-                              >
+                                app:lottie_rawRes="@raw/foodbike">
 
                             </com.airbnb.lottie.LottieAnimationView>
 
@@ -278,7 +278,7 @@
                                 android:scaleType="fitXY"
                                 android:layout_weight="1"
                                 app:lottie_loop="true"
-                                >
+                                app:lottie_rawRes="@raw/foodbike">
 
                             </com.airbnb.lottie.LottieAnimationView>
 
