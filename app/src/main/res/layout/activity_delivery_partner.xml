@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Welcome"
+            android:text="Dashboard"
             android:textAlignment="center"
             android:textStyle="bold"
             android:textSize="24dp"
@@ -37,7 +37,7 @@
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="wrap_content"
             app:cardCornerRadius="20dp"
             app:cardElevation="10dp"
             android:layout_margin="10dp"
@@ -54,13 +54,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Carl Jhones"
+                        android:layout_gravity="center"
                         android:layout_marginLeft="20dp"
                         android:paddingRight="20dp"
-                        android:layout_gravity="center"
-                        android:textStyle="bold"
+                        android:text="Carl Jhones"
                         android:textColor="@color/black"
-                        android:textSize="24dp"/>
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:layout_width="100dp"
@@ -97,7 +97,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:paddingLeft="10dp"
-                        android:paddingRight="10dp"
+                        android:paddingRight="0dp"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
@@ -120,10 +120,9 @@
 
                     </LinearLayout> 
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:paddingLeft="10dp"
-                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="0dp"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:layout_marginHorizontal="30dp"
@@ -140,7 +139,7 @@
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="05dp"
                             android:text="More.."
                             android:letterSpacing="0.2"
                             android:backgroundTint="@color/orange"/>
@@ -185,15 +184,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/orderscr"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:layout_below="@id/mid">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/order"
-            android:paddingTop="400dp"
             android:orientation="vertical"
-            android:layout_gravity="center">
+            >
 
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
