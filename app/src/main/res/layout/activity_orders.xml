@@ -91,6 +91,7 @@
                         android:layout_marginTop="35dp"
                         android:text="Bumper Thali"
                         android:textSize="20dp"
+                        android:textStyle="bold"
                         tools:ignore="TextSizeCheck" />
 
                     <TextView
@@ -101,6 +102,7 @@
                         android:gravity="right"
                         android:text="x2"
                         android:textSize="20dp"
+                        android:textStyle="bold|italic"
                         tools:ignore="TextSizeCheck" />
 
                 </LinearLayout>
@@ -192,6 +194,7 @@
                         android:layout_marginTop="35dp"
                         android:text="Pizza"
                         android:textSize="20dp"
+                        android:textStyle="bold"
                         tools:ignore="TextSizeCheck" />
 
                     <TextView
@@ -202,6 +205,7 @@
                         android:gravity="right"
                         android:text="x1"
                         android:textSize="20dp"
+                        android:textStyle="bold|italic"
                         tools:ignore="TextSizeCheck" />
 
                 </LinearLayout>
@@ -292,6 +296,7 @@
                         android:layout_marginTop="35dp"
                         android:text="South Tadka"
                         android:textSize="20dp"
+                        android:textStyle="bold"
                         tools:ignore="TextSizeCheck" />
 
                     <TextView
@@ -302,6 +307,7 @@
                         android:gravity="right"
                         android:text="x1"
                         android:textSize="20dp"
+                        android:textStyle="bold|italic"
                         tools:ignore="TextSizeCheck" />
 
                 </LinearLayout>
