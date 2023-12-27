@@ -112,24 +112,24 @@
 
     <Button
         android:id="@+id/SaveButton"
-        android:layout_width="wrap_content"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="85dp"
+        android:layout_marginStart="55dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="100dp"
         android:text="Edit"
         android:textColor="@color/black"
         android:backgroundTint="#FFFFFF"/>
 
     <Button
         android:id="@+id/LogoutButton"
-        android:layout_width="wrap_content"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_marginStart="200dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="100dp"
         android:backgroundTint="#FFFFFF"
         android:text="Logout"
         android:textColor="@color/black" />
