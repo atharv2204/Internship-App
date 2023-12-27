@@ -48,9 +48,9 @@
             android:name=".Deliverymap"
             android:exported="false"
             android:label="@string/title_activity_deliverymap" />
-        <activity
-            android:name=".map_page"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".map_page"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".Delivery_partner"
             android:exported="false" />

@@ -245,7 +245,7 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Time : 01:45 PM"
+                                android:text="Time : 12:45 PM"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"/>
                             <TextView
@@ -268,7 +268,7 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Estimated Time 2:00 PM"
+                                android:text="Estimated Time 1:00 PM"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"/>
 
@@ -327,7 +327,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Order #121"
+                            android:text="Order #122"
                             android:layout_marginLeft="20dp"
                             android:paddingRight="20dp"
                             android:layout_gravity="center"
@@ -357,14 +357,14 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Time : 01:45 PM"
+                                android:text="Time : 01:15 PM"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"/>
                             <TextView
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Cheese Pizza"
+                                android:text="Veg Burger"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"/>
 
@@ -372,7 +372,7 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Price :- ₹ 300"
+                                android:text="Price :- ₹ 149"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"/>
 
@@ -439,7 +439,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Order #121"
+                            android:text="Order #123"
                             android:layout_marginLeft="20dp"
                             android:paddingRight="20dp"
                             android:layout_gravity="center"
@@ -469,22 +469,14 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Time : 01:45 PM"
+                                android:text="Time : 01:30 PM"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"/>
                             <TextView
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Cheese Pizza"
-                                android:textColor="@color/black"
-                                android:textSize="20dp"/>
-
-                            <TextView
-                                android:layout_marginTop="10dp"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Price :- ₹ 300"
+                                android:text="Ice Cream"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"/>
 
@@ -492,7 +484,15 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Estimated Time 2:00 PM"
+                                android:text="Price :- ₹ 78"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"/>
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Estimated Time 2:10 PM"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"/>
 
